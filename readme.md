@@ -39,4 +39,4 @@ See the marked [options](https://github.com/chjj/marked#options-1).
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [alfred sang](http://no320.com)

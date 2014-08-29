@@ -3,9 +3,10 @@ var gutil = require('gulp-util');
 var through = require('through2');
 var marked = require('marked');
 
-
-
 module.exports = function (options) {
+	/**
+	 * 获得livescript脚本
+	 */
 	function get_livereload_snippet(opt){
 	  var opt = opt || {};
 	  var port = opt.port || 35729;
@@ -34,7 +35,6 @@ module.exports = function (options) {
 			if (opt.livereload &&  opt.livereload === true) {
 					data = data + get_livereload_snippet(options);
 			}
-			
 
 			file.contents = new Buffer(data);
 			file.path = gutil.replaceExtension(file.path, '.html');

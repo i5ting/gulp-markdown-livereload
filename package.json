@@ -1,13 +1,13 @@
 {
-  "name": "gulp-markdown",
+  "name": "gulp-markdown-livereload",
   "version": "1.0.0",
   "description": "Markdown to HTML",
   "license": "MIT",
-  "repository": "sindresorhus/gulp-markdown",
+  "repository": "i5ting/gulp-markdown-livereload",
   "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "http://sindresorhus.com"
+    "name": "alfred sang",
+    "email": "shiren1118@126.com",
+    "url": "http://no320.com"
   },
   "engines": {
     "node": ">=0.10.0"
@@ -24,8 +24,8 @@
     "marked",
     "md",
     "compile",
-    "convert",
-    "markup",
+    "livereload",
+    "lr",
     "html"
   ],
   "dependencies": {

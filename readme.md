@@ -36,6 +36,11 @@ gulp.task('default', function () {
 
 See the marked [options](https://github.com/chjj/marked#options-1).
 
+## History
+
+- v0.1.0
+	- init
+
 
 ## License
 

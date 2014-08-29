@@ -12,7 +12,7 @@
 ## Install
 
 ```sh
-$ npm install --save-dev gulp-markdown
+$ npm install --save-dev gulp-markdown-livereload
 ```
 
 
@@ -20,7 +20,7 @@ $ npm install --save-dev gulp-markdown
 
 ```js
 var gulp = require('gulp');
-var markdown = require('gulp-markdown');
+var markdown = require('gulp-markdown-livereload');
 
 gulp.task('default', function () {
 	return gulp.src('intro.md')

@@ -1,9 +1,13 @@
-# [gulp](http://gulpjs.com)-markdown [![Build Status](https://travis-ci.org/sindresorhus/gulp-markdown.svg?branch=master)](https://travis-ci.org/sindresorhus/gulp-markdown)
+# [gulp](http://gulpjs.com)-markdown-livereload [![Build Status](https://travis-ci.org/sindresorhus/gulp-markdown.svg?branch=master)](https://travis-ci.org/sindresorhus/gulp-markdown)
 
 > Markdown to HTML with [marked](https://github.com/chjj/marked)
 
 *Issues with the output should be reported on the marked [issue tracker](https://github.com/chjj/marked/issues).*
 
+
+## Livereload
+
+![](usage.png)
 
 ## Install
 

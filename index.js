@@ -32,7 +32,7 @@ module.exports = function (options) {
 				return;
 			}
 			
-			if (opt.livereload &&  opt.livereload === true) {
+			if (options.livereload &&  options.livereload === true) {
 					data = data + get_livereload_snippet(options);
 			}
 

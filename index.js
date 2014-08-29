@@ -25,6 +25,11 @@ module.exports = function (options) {
 			cb(new gutil.PluginError('gulp-markdown', 'Streaming not supported'));
 			return;
 		}
+		
+		var livereload_script = '';
+		if (true) {
+			livereload_script = get_livereload_snippet(options);	
+		}
 
 		marked(file.contents.toString(), options, function (err, data) {
 			if (err) {
@@ -32,9 +37,7 @@ module.exports = function (options) {
 				return;
 			}
 			
-			if (options.livereload &&  options.livereload === true) {
-					data = data + get_livereload_snippet(options);
-			}
+			data = data + get_livereload_snippet(options);
 
 			file.contents = new Buffer(data);
 			file.path = gutil.replaceExtension(file.path, '.html');

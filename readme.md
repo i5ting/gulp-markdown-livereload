@@ -9,6 +9,9 @@
 
 ![](usage.png)
 
+
+http://feedback.livereload.com/knowledgebase/articles/86180-how-do-i-add-the-script-tag-manually-
+
 ## Install
 
 ```sh
